@@ -25,8 +25,6 @@ import StringIO
 import glob
 from django.http import HttpResponse
 
-
-from oauth2_provider.views.generic import ProtectedResourceView
 from django.http import HttpResponse
 
 
