@@ -18,6 +18,6 @@ from django.contrib import admin
 from draw import urls as draw_urls
 
 urlpatterns = [
-    url(r'^store/a/', include(admin.site.urls)),
-    url(r'^/store/api/v2/datastore/', include(draw_urls)),
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^store/api/v2/datastore/', include(draw_urls)),
 ]
