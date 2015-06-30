@@ -15,8 +15,6 @@ from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework.decorators import authentication_classes, permission_classes, api_view
 from django.core.serializers import serialize
-from django_rest_params.decorators import params
-
 
 
 #Export shapefile
